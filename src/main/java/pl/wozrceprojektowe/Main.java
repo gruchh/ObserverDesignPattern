@@ -17,7 +17,7 @@ public class Main {
             Scanner sc = new Scanner(System.in);
 
             while (true) {
-                if(sc.hasNextLine()) {
+                if (sc.hasNext()) {
                     subject.cancelTask();
                     System.out.println("Operation cancelled by user");
                     break;
